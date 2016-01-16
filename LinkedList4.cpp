@@ -9,7 +9,7 @@ struct ListNode{
 	struct ListNode *next; 
 }; 
 
-vodi DeleteLinkedList(struct ListNode **head){
+void DeleteLinkedList(struct ListNode **head){
 	struct ListNode *auxiliaryNode, *iterator;  
 	iterator = head; 
 	while (iterator){
