@@ -24,3 +24,8 @@ void DeleteLastNodeFromCLL(struct CLL **head){
 	free(current);
 	return; 
 }
+
+int main(){
+	// some code 
+	return 0; 
+}
